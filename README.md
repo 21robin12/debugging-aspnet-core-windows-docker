@@ -6,7 +6,7 @@
 
 ### 1 - Acquiring the .NET Core remote debugging tools
 
-> As of December 2017 it looks like this is the only way to acquire the .NET Core version of the Remote Debugging tools. When attempting to use the full framework version found at `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger`, Visual Studio hangs when trying to attach to the .NET Core process.
+> As of December 2017 it looks like this is the only way to acquire the .NET Core version of the Remote Debugging tools. Using the full version of the tools found at `C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Remote Debugger` doesn't work - Visual Studio hangs when trying to attach to the .NET Core process.
 
  - Ensure you have Visual Studio 2017 installed, along with Docker tools (Visual Studio Installer -> Modify -> Individual components -> Cloud, database, and server -> Container development tools)
  - Create a new ASP.NET Core web application, and select "Enable Docker Support"
