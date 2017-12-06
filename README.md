@@ -17,6 +17,7 @@
  - Clone this repository
  - In the `docker-compose.yml` file, replace `<USER>` with your Windows username (and check the version number matches that of the .NET Core remote debugging tools downloaded in step 1)
  - Build the DockerDebug solution through Visual Studio
+ - Ensure Windows containers are enabled (right-click system tray icon -> Switch to Windows containers)
  - `docker-compose up --force-recreate --build`
  - Visit http://172.18.0.2/api/test/get
 
